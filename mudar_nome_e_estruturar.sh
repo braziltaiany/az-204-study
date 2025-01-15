@@ -1,15 +1,6 @@
 #!/bin/bash
 
-# 1. Definindo o novo nome do repositório
-NEW_REPO_NAME="az-204-study"
-OLD_REPO_NAME="az204-guia-completo"
-
-# 2. Verifica se está no diretório correto
-CURRENT_DIR=$(basename "$(pwd)")
-if [ "$CURRENT_DIR" != "$OLD_REPO_NAME" ]; then
-    echo "Você não está no diretório correto. Certifique-se de estar em '$OLD_REPO_NAME'."
-    exit 1
-fi
+BASE_DIR="az-204-study"
 
 # 3. Renomear o diretório local (após renomear o repositório no GitHub)
 mv "$OLD_REPO_NAME" "$NEW_REPO_NAME"
