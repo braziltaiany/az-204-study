@@ -14,7 +14,7 @@ Este repositório contém o material de estudo e exemplos práticos para o exame
 
 ## Conteúdo
 
-- [Guia: Criar um Serviço de Aplicativo no Azure Portal](docs/web-app-guide.md)
+- [Guia: Criar um Serviço de Aplicativo no Azure Portal](web-app/docs/web-app-guide.md)
 - Futuras adições incluem tópicos como:
   - Funções do Azure (Azure Functions)
   - Gerenciamento de APIs
